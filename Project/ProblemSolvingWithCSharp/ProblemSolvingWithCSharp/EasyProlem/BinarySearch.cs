@@ -12,6 +12,7 @@ namespace ProblemSolvingWithCSharp.EasyProlem
         {
             // Write your code here.
             // test
+            // sdkhcsd skadjfksladhfß
             return BinarySearch(array, target, 0, array.Length - 1);
         }
 
