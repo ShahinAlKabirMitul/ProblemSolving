@@ -25,6 +25,10 @@ namespace ProblemSolvingWithCSharp.EasyProlem
             }
             return seqLength == sequence.Count;
         }
+        void a()
+        {
+
+        }
         public static bool IsValidSubsequenceSN2(List<int> array, List<int> sequence)
         {
             // Write your code here.

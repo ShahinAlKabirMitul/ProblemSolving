@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProblemSolvingWithCSharp.EasyProlem;
+using System;
 
 namespace ProblemSolvingWithCSharp
 {
@@ -6,7 +7,13 @@ namespace ProblemSolvingWithCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var ints = new int[2, 4];
+
+            var input = new int[] { 1, 2, 3, 5, 6, 8, 9 };
+            SortedSquaredArray.Sol3(input);
+            Console.WriteLine(ReverseSting.GetReverse( "Mitul!"));
+
+            
         }
     }
 }
