@@ -11,6 +11,8 @@ namespace ProblemSolvingWithCSharp.EasyProlem
         public static int BinarySearch(int[] array, int target)
         {
             // Write your code here.
+            // test
+            // sdkhcsd skadjfksladhfß
             return BinarySearch(array, target, 0, array.Length - 1);
         }
 
