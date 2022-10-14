@@ -12,8 +12,9 @@ namespace ProblemSolvingWithCSharp
             var input = new int[] { 1, 2, 3, 5, 6, 8, 9 };
             //  SortedSquaredArray.Sol3(input);
             // Console.WriteLine(ReverseSting.SOL( "Mitul!"));
-           // Console.WriteLine(Palindrome.Ispalindrome("ABBAtrfgh"));
-            Console.WriteLine(Palindrome.Ispalindrome("ABBAaf"));
+            // Console.WriteLine(Palindrome.Ispalindrome("ABBAtrfgh"));
+            //Console.WriteLine(Palindrome.Ispalindrome("ABBAaf"));
+            Console.WriteLine(ReverseInt.ReverseINT2(-15000));
 
         }
     }
