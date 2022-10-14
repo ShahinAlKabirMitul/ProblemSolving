@@ -18,5 +18,31 @@ namespace ProblemSolvingWithCSharp.EasyProlem
             }
             return new string(charArray);
         }
+        public static string GetReverse2(string str)
+        {
+            char[] charArray = str.ToCharArray();
+            int lastIndex = str.Length - 1;
+            var d = str.Length / 2;
+            for (int i = 0; i< d ; i++)
+            {
+                var temp = charArray[i];
+                charArray[i] = charArray[lastIndex];
+                charArray[lastIndex] = temp;
+                lastIndex--;
+            }
+            return new string(charArray);
+        }
+
+        public static string SOL3(string str)
+        {
+            string reverse = string.Empty;
+            foreach (var item in str)
+            {
+                reverse = item + reverse;
+            }
+            return reverse;
+        }
+
+
     }
 }
