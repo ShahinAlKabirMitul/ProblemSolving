@@ -21,11 +21,8 @@ namespace ProblemSolvingWithCSharp.EasyProlem
                 
                
             }
-            if (input<0)
-            {
-                return int.Parse(result) * -1;
-            }
-            return Convert.ToInt32(result);
+           
+            return Convert.ToInt32(result) * Math.Sign(input);
         }
 
         public static int ReverseINT2(int input)
@@ -35,7 +32,7 @@ namespace ProblemSolvingWithCSharp.EasyProlem
             {
                 str = str.Remove(0,1);
             }
-            return  int.Parse(str.Reverse().Aggregate("", (s, c) => s+c));
+            return  int.Parse(str.Reverse().Aggregate("", (s, c) => s+c)) * Math.Sign(input);
            
             
         }

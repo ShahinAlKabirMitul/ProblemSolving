@@ -14,8 +14,8 @@ namespace ProblemSolvingWithCSharp
             // Console.WriteLine(ReverseSting.SOL( "Mitul!"));
             // Console.WriteLine(Palindrome.Ispalindrome("ABBAtrfgh"));
             //Console.WriteLine(Palindrome.Ispalindrome("ABBAaf"));
-            Console.WriteLine(ReverseInt.ReverseINT2(-15000));
-
+            //Console.WriteLine(ReverseInt.ReverseINT2(-15000));
+            Console.WriteLine(MaxChar.SOL2("AAVDDDRD"));
         }
     }
 }
