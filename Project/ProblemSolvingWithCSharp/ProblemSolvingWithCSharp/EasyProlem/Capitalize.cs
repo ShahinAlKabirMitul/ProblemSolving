@@ -11,27 +11,20 @@ namespace ProblemSolvingWithCSharp.EasyProlem
 
         public static string SOL1(string str)
         {
-            string result = string.Empty;
+            StringBuilder result = new StringBuilder();
             var items = str.Split(" ");
 
             foreach (var item in items)
             {
                 if (item != string.Empty)
                 {
-                    if (item.Length > 2)
-                    {
-                        result += CapitalizeFirst(item);
-                    }
-                    else
-                    {
-                        result += item.ToLower();
-                    }
+                    result.Append(CapitalizeFirst(item));
 
-                    result += " ";
+                    result.Append(" ");
                 }
 
             }
-            return result.Trim();
+            return result.ToString().Trim();
         }
         private static string CapitalizeFirst(string input)
         {
