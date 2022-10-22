@@ -18,6 +18,8 @@ namespace ProblemSolvingWithCSharp
             //Console.WriteLine(ReverseInt.ReverseINT2(-15000));
             // Console.WriteLine(MaxChar.SOL2("AAVDDDRD"));
             // Console.WriteLine(FizzBuzz.SOL2(100));
+            //var d = ChunkArray.SOl2(input, 2);
+            Anagrams.SOL1("RAIL! SAFETY!", "fairy tales");
             
         }
     }

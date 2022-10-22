@@ -10,7 +10,7 @@ namespace ProblemSolvingWithCSharp.MediemPro
     {
         public static  List<int[]> Sol1(int[]array,int size)
         {
-            List<int[]> result = new List<int[]>();
+            List<int[]> chunked = new List<int[]>();
             var t = array;
             int temp = 0;
             int[] kkr = new int[size];
@@ -24,24 +24,39 @@ namespace ProblemSolvingWithCSharp.MediemPro
 
                 if(size> array.Length)
                 {
-                    result.Add(array);
-                    return result;
+                    chunked.Add(array);
+                    return chunked;
                 }
 
                 if(size == temp)
                 {
-                    result.Add(kkr);
+                    chunked.Add(kkr);
                     temp = 0;
                     kkr = new int[size];
                 }
 
                 if (last == item && size > temp)
                 {
-                    result.Add(kkr);
+                    chunked.Add(kkr);
                 }
 
             }
-            return result;
+            return chunked;
         }
+
+        public static int[] SOl2(int[] array, int size)
+        {
+            int[] chunked = new int[array.Length]; 
+            int index = 0;
+            while (index < array.Length)
+            {
+                Array.Copy(array, chunked, index + size);
+                index += size;
+            }
+            return chunked;
+        }
+
+
+
     }
 }
