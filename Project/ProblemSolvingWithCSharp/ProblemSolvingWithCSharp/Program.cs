@@ -19,7 +19,8 @@ namespace ProblemSolvingWithCSharp
             // Console.WriteLine(MaxChar.SOL2("AAVDDDRD"));
             // Console.WriteLine(FizzBuzz.SOL2(100));
             //var d = ChunkArray.SOl2(input, 2);
-            Anagrams.SOL1("RAIL! SAFETY!", "fairy tales");
+            //Anagrams.SOL1("RAIL! SAFETY!", "fairy tales");
+            Capitalize.SOL1(" a this is shahin");
             
         }
     }
