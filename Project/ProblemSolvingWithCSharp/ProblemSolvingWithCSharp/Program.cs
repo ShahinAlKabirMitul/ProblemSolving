@@ -20,8 +20,11 @@ namespace ProblemSolvingWithCSharp
             // Console.WriteLine(FizzBuzz.SOL2(100));
             //var d = ChunkArray.SOl2(input, 2);
             //Anagrams.SOL1("RAIL! SAFETY!", "fairy tales");
-            Capitalize.SOL1(" a this is shahin");
-            
+            //Capitalize.SOL1(" a this is shahin");
+            //   var ddd=  StringToINT.SOL1("4193 with words");
+            Console.WriteLine( StepsN.SOL2(4));
+
+
         }
     }
 }

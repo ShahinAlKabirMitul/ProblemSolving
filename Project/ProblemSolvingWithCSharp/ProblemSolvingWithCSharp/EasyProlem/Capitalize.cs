@@ -13,7 +13,6 @@ namespace ProblemSolvingWithCSharp.EasyProlem
         {
             StringBuilder result = new StringBuilder();
             var items = str.Split(" ");
-
             foreach (var item in items)
             {
                 if (item != string.Empty)
@@ -28,6 +27,7 @@ namespace ProblemSolvingWithCSharp.EasyProlem
         }
         private static string CapitalizeFirst(string input)
         {
+            
             if (input.Length > 2)
                 return char.ToUpper(input[0]) + input[1..].ToLower();
             else
