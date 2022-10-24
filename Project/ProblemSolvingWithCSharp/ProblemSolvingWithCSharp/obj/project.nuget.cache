@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XHvAWSZSRCH0Z1xD/4XlFiMJSK4omdRv3EqNffQnxqrxvH/6q7MpWNPwUiokPnHe8FW7Dt+GOKHg2xJwhAJcJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mitul\\source\\repos\\ProblemSolving\\Project\\ProblemSolvingWithCSharp\\ProblemSolvingWithCSharp\\ProblemSolvingWithCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mitul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
