@@ -22,7 +22,8 @@ namespace ProblemSolvingWithCSharp
             //Anagrams.SOL1("RAIL! SAFETY!", "fairy tales");
             //Capitalize.SOL1(" a this is shahin");
             //   var ddd=  StringToINT.SOL1("4193 with words");
-            pyramid.SOL2(4);
+            //pyramid.SOL2(4);
+            Vowels.SOL2("HI ThEre");
 
         }
     }
