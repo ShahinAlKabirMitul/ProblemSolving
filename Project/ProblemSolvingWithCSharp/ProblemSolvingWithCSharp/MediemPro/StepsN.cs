@@ -61,6 +61,27 @@ namespace ProblemSolvingWithCSharp.MediemPro
             }
             return result;
         }
+        public static void SOL3(int n,int row =0,string result="")
+        {
+            if (row == n)
+            {
+                return;
+            }
+            if(n == result.Length)
+            {
+                Console.WriteLine(result);
+                SOL3(n, row + 1);
+                return;
+            }
+            if (result.Length <= row)
+            {
+                result += "#";
+            }
+            else
+                result += "*";
+
+            SOL3(n, row,result);
+        }
 
 
         public static string GetHash(int n)
