@@ -32,13 +32,9 @@ namespace ProblemSolvingWithCSharp.EasyProlem
 
         public static int SOL2(string str)
         {
-            char[] vowels = new char[]
-            {
-               'a','e','i','o','u'
-            };
-            
-            var regex = new Regex(@"(?<=%aeiou%#)\d+").Matches(str.ToLower());
-            return 0;
+           
+            var regex = new Regex(@"[aeiou]",RegexOptions.IgnoreCase).Matches(str);
+            return regex.Count;
         }
     }
 }
