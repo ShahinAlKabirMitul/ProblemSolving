@@ -25,6 +25,8 @@ namespace ProblemSolvingWithCSharp
             //pyramid.SOL2(4);
             Vowels.SOL2("HI ThEre");
 
+            //Vowels.SOL1("Hi thre");
+
         }
     }
 }
