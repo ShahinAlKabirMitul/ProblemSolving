@@ -11,7 +11,7 @@ namespace ProblemSolvingWithCSharp
             var ints = new int[2, 4];
 
             var input = new int[] { 1, 2, 3, 5,6};
-            //  SortedSquaredArray.Sol3(input);
+            Console.WriteLine( SortedSquaredArray.Sol3(input));
             // Console.WriteLine(ReverseSting.SOL( "Mitul!"));
             // Console.WriteLine(Palindrome.Ispalindrome("ABBAtrfgh"));
             //Console.WriteLine(Palindrome.Ispalindrome("ABBAaf"));
@@ -24,7 +24,7 @@ namespace ProblemSolvingWithCSharp
             //   var ddd=  StringToINT.SOL1("4193 with words");
             //pyramid.SOL2(4);
             Vowels.SOL2("HI ThEre");
-
+            Console.WriteLine("this is mitul");
             //Vowels.SOL1("Hi thre");
 
         }
