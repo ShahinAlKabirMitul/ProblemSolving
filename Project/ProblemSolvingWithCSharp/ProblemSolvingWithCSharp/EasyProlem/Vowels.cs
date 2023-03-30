@@ -36,5 +36,32 @@ namespace ProblemSolvingWithCSharp.EasyProlem
             var regex = new Regex(@"[aeiou]",RegexOptions.IgnoreCase).Matches(str);
             return regex.Count;
         }
+        public static int SOL3(string[] words,int left,int right)
+        {
+            
+            int count = 0;
+            for (int i = left; i <= right; i++)
+            {
+                var str = words[i];
+                int n = str.Length-1;
+                if (IsVowel(str[0]) && IsVowel(str[n]))
+                {
+                    count++;
+                }
+            }
+           
+            
+
+            return count;
+        }
+
+        private static bool IsVowel(char ch)
+        {
+            char[] vowels = new char[]
+            {
+                'a','e','i','o','u'
+            };
+            return vowels.Contains(ch) ;
+        }
     }
 }
