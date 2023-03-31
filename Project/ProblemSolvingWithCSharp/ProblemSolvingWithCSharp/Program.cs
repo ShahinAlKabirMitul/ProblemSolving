@@ -10,8 +10,10 @@ namespace ProblemSolvingWithCSharp
         {
             var ints = new int[2, 4];
 
-            var input = new int[] { 1, 2, 3, 5,6};
-            Console.WriteLine( SortedSquaredArray.Sol3(input));
+            var input = new int[] { 9};
+           Console.WriteLine( PlusOne.SOl1(input));
+      
+            //Console.WriteLine( SortedSquaredArray.Sol3(input));
             // Console.WriteLine(ReverseSting.SOL( "Mitul!"));
             // Console.WriteLine(Palindrome.Ispalindrome("ABBAtrfgh"));
             //Console.WriteLine(Palindrome.Ispalindrome("ABBAaf"));
