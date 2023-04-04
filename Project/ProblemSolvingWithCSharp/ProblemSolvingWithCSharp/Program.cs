@@ -8,10 +8,11 @@ namespace ProblemSolvingWithCSharp
     {
         static void Main(string[] args)
         {
-            var ints = new int[2, 4];
-
-            var input = new int[] { 9};
-           Console.WriteLine( PlusOne.SOl1(input));
+            var ints = new int[]{4,1,2,1,2};
+          Console.WriteLine( SingleNumber.SingleNumber1(ints));
+            //var input = new int[] { 5,2,3,0,1,0};
+            
+           //Console.WriteLine( PlusOne.SortArray(input));
       
             //Console.WriteLine( SortedSquaredArray.Sol3(input));
             // Console.WriteLine(ReverseSting.SOL( "Mitul!"));
